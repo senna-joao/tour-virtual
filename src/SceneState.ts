@@ -3,5 +3,12 @@ import { MeshBasicMaterial } from "three"
 export interface SceneState {
 	stateName: string
 	material: MeshBasicMaterial
-	path: {prox: string, lat: number, long: number}[]
+	path: Coordinates []
+}
+
+export interface Coordinates {
+	prox: string
+	x: number
+	y: number
+	z: number
 }
