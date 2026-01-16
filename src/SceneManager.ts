@@ -129,7 +129,7 @@ export class SceneManager {
 		this.camera.lookAt(new THREE.Vector3(55))
 		this.controls.target =new THREE.Vector3(55)
 		
-		document.addEventListener('click', (e: MouseEvent) => positionGetter(e, this.mouse, this.camera, skyBox))
+		//document.addEventListener('click', (e: MouseEvent) => positionGetter(e, this.mouse, this.camera, skyBox))
 
 		this.createAllButtons()
 	
